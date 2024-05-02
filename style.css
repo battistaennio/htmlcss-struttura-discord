@@ -76,3 +76,13 @@ header .sez-nav1{
     background-color: rgb(255, 192, 203);
     width: 23%;
 }
+
+#sez4{
+    min-height: 685px;
+}
+
+.green{
+    background-color: rgb(34, 139, 34);
+    width: 61%;
+    min-height: 615px;
+}
