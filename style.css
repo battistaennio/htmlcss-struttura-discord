@@ -5,9 +5,9 @@
 }
 
 /* regole header */
-header .sez-nav{
+header .sez-nav1{
     background-color: rgb(173, 216, 230);
-    min-height: 45px;
+    min-height: 50px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -17,11 +17,33 @@ header .sez-nav{
 .blocco-header{
     /* DEBUG */
     width: 10%;
-    height: 25px;
-    border: 1px dotted black;
+    min-height: 25px;
+    border: 2px dotted black;
     background-color: rgb(218, 165, 32);
+    font-size: 13px;
+    padding: 5px 10px;
 }
 
 .navigazione{
     width: 35%;
+    text-align: center;
+}
+
+.login{
+    text-align: end;
+}
+
+.sez-nav2{
+    min-height: 350px;
+    background-color: rgb(0, 0, 139);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blocco-header2{
+    width: 40%;
+    min-height: 285px;
+    border: 2px dotted black;
+    background-color: rgb(238, 130, 238);
 }
