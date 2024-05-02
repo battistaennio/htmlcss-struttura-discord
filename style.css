@@ -15,12 +15,12 @@ header .sez-nav1{
 }
 
 .blocco-header{
-    /* DEBUG */
     width: 10%;
     min-height: 25px;
     border: 2px dotted black;
     background-color: rgb(218, 165, 32);
     font-size: 13px;
+        /* DEBUG */
     padding: 5px 10px;
 }
 
@@ -46,4 +46,33 @@ header .sez-nav1{
     min-height: 285px;
     border: 2px dotted black;
     background-color: rgb(238, 130, 238);
+}
+
+/* regole main */
+.sez-main{
+    min-height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gray{
+    background-color: rgb(211, 211, 211);
+    flex-direction: row-reverse;
+}
+
+.blocco-main{
+    min-height: 385px;
+    border: 2px dotted black;
+
+}
+
+.blue{
+    background-color: rgb(30, 144, 255);
+    width: 38%;
+}
+
+.pink{
+    background-color: rgb(255, 192, 203);
+    width: 23%;
 }
