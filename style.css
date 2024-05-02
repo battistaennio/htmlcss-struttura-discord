@@ -17,9 +17,8 @@ header .sez-nav1{
 .blocco-header{
     width: 10%;
     min-height: 25px;
-    border: 2px dotted black;
+    border: 2px dashed black;
     background-color: rgb(218, 165, 32);
-    font-size: 13px;
         /* DEBUG */
     padding: 5px 10px;
 }
@@ -44,7 +43,7 @@ header .sez-nav1{
 .blocco-header2{
     width: 40%;
     min-height: 285px;
-    border: 2px dotted black;
+    border: 2px dashed black;
     background-color: rgb(238, 130, 238);
 }
 
@@ -63,7 +62,8 @@ header .sez-nav1{
 
 .blocco-main{
     min-height: 385px;
-    border: 2px dotted black;
+    margin: 30px 0px;
+    border: 2px dashed black;
 
 }
 
@@ -74,15 +74,72 @@ header .sez-nav1{
 
 .pink{
     background-color: rgb(255, 192, 203);
-    width: 23%;
+    width: 22%;
 }
 
-#sez4{
-    min-height: 685px;
-}
-
+/* sezione 4 più grande */
 .green{
     background-color: rgb(34, 139, 34);
-    width: 61%;
+    width: 60%;
     min-height: 615px;
+}
+
+/* sezione footer link social + link footer */
+footer{
+    background-color: rgb(35, 39, 42);
+}
+
+.sez-footer{
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link{
+    min-height: 450px;
+    margin-bottom: 30px;
+}
+
+.social{
+    width: 20%;
+    background-color: rgb(240, 128, 128);
+    border: 2px dashed black;
+}
+
+.container{
+    width: 40%;
+    background-color: rgb(32, 178, 170);
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.link-footer{
+    width: 25%;
+    border: 2px dashed black;
+}
+
+/* logo + sign in */
+.sez-footer-n2{
+    display: flex;
+    justify-content: center;
+}
+
+.logo-bottone-footer{
+    width: 60%;
+    height: 60px;
+    background-color: rgb(127, 255, 212);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.bottone-footer{
+    height: 25px;
+    background-color: rgb(245, 174, 183);
+    border: 2px dashed black;
+    padding: 5px 10px;
+    line-height: 10px;
 }
