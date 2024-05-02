@@ -3,3 +3,25 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* regole header */
+header .sez-nav{
+    background-color: rgb(173, 216, 230);
+    min-height: 45px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blocco-header{
+    /* DEBUG */
+    width: 10%;
+    height: 25px;
+    border: 1px dotted black;
+    background-color: rgb(218, 165, 32);
+}
+
+.navigazione{
+    width: 35%;
+}
